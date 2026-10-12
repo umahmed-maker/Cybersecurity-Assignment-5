@@ -1,0 +1,6 @@
+Normal login vulnerable: [('alice',)]
+Normal login secure: [('alice',)]
+Wrong password vulnerable: []
+Injection vulnerable: [('alice',), ('bob',)]
+Injection secure: []
+Note: production systems must use salted password hashing, not plaintext passwords.
