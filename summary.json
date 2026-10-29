@@ -1,0 +1,24 @@
+{
+  "records_after_deduplication": 792975,
+  "class_counts": {
+    "Normal": 599227,
+    "DoS": 193748,
+    "DDoS": 0
+  },
+  "features": [
+    "Flow Duration",
+    "Total Fwd Packets",
+    "Total Backward Packets",
+    "Total Length of Fwd Packets",
+    "Total Length of Bwd Packets",
+    "Flow Bytes/s",
+    "Flow Packets/s",
+    "Packet Length Mean",
+    "SYN Flag Count",
+    "ACK Flag Count"
+  ],
+  "test_records": 158595,
+  "accuracy": 0.9965320470380529,
+  "macro_f1": 0.9953109234586288,
+  "caveat": "Random flow split from a historical dataset; performance may not generalize to new networks or attack campaigns."
+}
